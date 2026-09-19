@@ -432,7 +432,7 @@ function App() {
         {/* Footer */}
         <footer className="mt-12 pt-6 border-t border-white/[0.06] flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-gray-600">
-            © 2026 VoxStudio · AI Text-to-Speech
+            © 2026 UrStudio · AI Text-to-Speech
           </p>
 
           <div className="flex items-center gap-2 text-xs text-gray-600">
