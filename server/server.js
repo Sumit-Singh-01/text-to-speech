@@ -7,6 +7,8 @@ const ttsRoutes = require("./routes/ttsRoutes");
 
 const app = express();
 
+app.set("trust proxy", 1);
+
 // CORS Protection
 app.use(
     cors({
