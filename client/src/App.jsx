@@ -109,7 +109,7 @@ function App() {
 
             <div>
               <h1 className="font-bold text-lg tracking-tight">
-                Vox<span className="text-violet-400">Studio</span>
+                Ur<span className="text-violet-400">Studio</span>
               </h1>
               <p className="text-[11px] text-gray-500 tracking-widest uppercase">
                 AI Speech Generator
