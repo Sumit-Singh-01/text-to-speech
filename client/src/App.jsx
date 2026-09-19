@@ -39,7 +39,7 @@ function App() {
       }
 
       const response = await axios.post(
-        "http://localhost:5000/api/tts",
+        "https://text-to-speech-h8be.onrender.com/api/tts",
         {
           text,
           language,
