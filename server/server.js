@@ -36,12 +36,16 @@ app.use("/api/tts", ttsLimiter);
 app.use("/api", ttsRoutes);
 
 // Health Check
+// Health Check
 app.get("/api/health", (req, res) => {
     res.json({
         success: true,
         message: "Text-to-Speech Server is running",
     });
 });
+
+// API Routes
+app.use("/api", ttsRoutes);
 
 // Server
 const PORT = process.env.PORT || 5000;
